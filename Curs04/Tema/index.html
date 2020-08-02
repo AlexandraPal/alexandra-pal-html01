@@ -11,26 +11,27 @@
 </head>
 
 <body>
+  <p>
   <a
     href="https://google.com/"
     title="Home"
     rel="noopener noreferre"
     target="_blank"
-  >Home * </a>
+  >Home</a> *
 
   <a
     href="https://google.com/"
     title="Place Order"
     rel="noopener noreferrer"
     target="_blank"
-  > <b>Place Order</b> * </a>
+  > <b>Place Order</b></a> *
 
   <a
     href="https://google.com/"
     title="Customer Service"
     rel="noopener noreferrer"
     target="_blank"
-  >Customer Service * </a>
+  >Customer Service</a> *
 
   <a
     href="https://google.com/"
@@ -38,6 +39,7 @@
     rel="noopener noreferrer"
     target="_blank"
   >Contact</a>
+</p>
 
   <h1>Place Order</h1>
 
@@ -52,7 +54,8 @@
 
   <h3>Products</h3>
 
-  <img
+  <p>
+    <img
     src="images/mouse.jpg"
     alt="Mouse"
   >
@@ -68,12 +71,14 @@
     title="Editeaza"
     rel="noopener noreferrer"
   >Editeaza</a>
+</p>
 
-  <br><br><br>
+  <br><br>
 
   <hr>
 
-  <img
+  <p>
+    <img
     src="images/extension_chord.jpg"
     alt="Extension Chord"
   >
@@ -89,12 +94,14 @@
     title="Editeaza"
     rel="noopener noreferrer"
   >Editeaza</a>
+</p>
 
-  <br><br><br>
+  <br><br>
 
   <hr>
 
-  <img
+  <p>
+    <img
     src="images/phone.jpg"
     alt="Phone"
   >
@@ -110,12 +117,13 @@
     title="Editeaza"
     rel="noopener noreferrer"
   >Editeaza</a>
+</p>
 
-  <br><br><br>
+  <br><br>
 
   <hr>
 
-  <br><br><br>
+  <br>
 
   <h3>Order Now</h3>
 
@@ -211,9 +219,7 @@
       <br><br>
 
     </fieldset>
-  </form>
-
-  <form action="POST">
+  
     <fieldset>
       <legend>Address</legend>
 
@@ -293,6 +299,7 @@
 
       <select
         name="state"
+        id="state"
         required
       >
         <option value="state">--State--</option>
@@ -316,9 +323,7 @@
       <br><br>
 
     </fieldset>
-  </form>
-
-  <form action="POST">
+ 
     <fieldset>
       <legend>Card Information</legend>
 
@@ -336,35 +341,23 @@
 
       <br><br>
 
-      <label for="surname">*Surname:</label>
+      <label for="card-name">*Name on card:</label>
 
       <input
         type="text"
-        name="surname"
-        placeholder="Surname"
-        id="surname"
-        required
-      >
-
-      <br><br>
-
-      <label for="ccn-name">*Name on card:</label>
-
-      <input
-        type="text"
-        name="ccn-name"
+        name="card-name"
         placeholder="Name on card"
-        id="ccn-name"
+        id="card-name"
         required
       >
 
       <br><br>
-
 
       <label for="exp-month">*Expiry Month:</label>
 
       <select
         name="exp-month"
+        id="exp-month"
         required
       >
         <option value="january">January</option>
@@ -413,14 +406,14 @@
 
     </fieldset>
 
-  </form>
 
-  <form action="POST">
     <fieldset>
       <legend>Form Controls</legend>
 
       <input
         type="checkbox"
+        name="terms-cond"
+        id="terms-cond"
         required
       >
 
@@ -433,13 +426,21 @@
 
       <br><br>
 
-      <input type="checkbox">
+      <input 
+      type="checkbox" 
+      name="email-consent" 
+      id="email-consent"
+      >
 
       <label for="email-consent">Can we send you emails?</label>
 
       <br><br>
 
-      <input type="checkbox">
+      <input 
+      type="checkbox" 
+      name="gdpr-consent" 
+      id="gdpr-consent"
+      >
 
       <label for="gdpr-consent">GDPR generic consent?</label>
 
@@ -462,26 +463,27 @@
     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
     laborum.</p>
 
-  <a
+  <p>
+    <a
     href="https://google.com/"
     title="Home"
     rel="noopener noreferre"
     target="_blank"
-  >Home * </a>
+  >Home</a> *
 
   <a
     href="https://google.com/"
     title="Place Order"
     rel="noopener noreferrer"
     target="_blank"
-  > <b>Place Order</b> * </a>
+  > <b>Place Order</b></a> *
 
   <a
     href="https://google.com/"
     title="Customer Service"
     rel="noopener noreferrer"
     target="_blank"
-  >Customer Service * </a>
+  >Customer Service</a> *
 
   <a
     href="https://google.com/"
@@ -489,6 +491,7 @@
     rel="noopener noreferrer"
     target="_blank"
   >Contact</a>
+</p>
 
 </body>
 
