@@ -1,38 +1,74 @@
+/* Selecteaza toate ancorele din document
+si aplica culoarea verde pe text  */
 a {
   color: green;
 }
 
+/* Selecteaza cuvintele “is” si coloreaza-le rosu */
 i {
   color: red;
 }
 
+/* Subliniaza toate elementele cu clasa line
+ */
 .line {
   text-decoration: underline;
 }
 
+/* Elimina linia de la ancorele de sub
+elementele cu clasa links
+ */
 .links a {
   text-decoration: none;
 }
 
+/* Coloreaza gri toate elementele cu clasa line
+care se afla in paragrafe
+ */
 p .line {
   color: grey;
 }
 
+/* Selecteaza cuvintele “and” si coloreaza-le mov */
 b {
   color: purple;
 }
 
+/* Coloreaza albastru elementele cu
+clasa line din elementele cu clasa odd */
 .odd .line {
   color: blue;
 }
 
+/* Subliniaza elementele i din elementele cu clasa odd
+ */
 .odd i {
   text-decoration: underline;
 }
 
-/* ex 12  */
+/* Subliniaza elementele b din elementele
+cu clasa even */
+.even b {
+  text-decoration: underline;
+}
 
-a[href$='.com'],
+/* Coloreaza turcoaz doar elementele cu clasa line
+care se afla in elementele cu clasa desc
+ */
+.desc .line {
+  color: turquoise;
+}
+
+/* Coloreaza rosu toate ancorele care au
+atributul href incepand cu http
+ */
+a[href^='http'] {
+  color: red;
+}
+
+/* Subliniaza si coloreaza negre ancorele la care
+atributul href se termina in .com/
+ */
 a[href$='.com/'] {
   color: black;
   text-decoration: underline;
